@@ -13,11 +13,11 @@ The tools used in this project iclude, mainly:
 Please, before to start, don't forget introduce your API_KEY in config.js file and remember activate the logic.js file you are interested:
 
 # Visualization Level-1
-![2-BasicMap]()
+![2-BasicMap](https://github.com/RodGuarneros/leaflet/blob/master/static/Images/RodrigoGuarneros1.jpg)
 
 # Visualization Level-2
 
-
+![BasicMap](https://github.com/RodGuarneros/leaflet/blob/master/static/Images/RodrigoGuarneros2.jpg)
 
 # Bibliography
 
