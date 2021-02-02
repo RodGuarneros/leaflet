@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Earthquakes</title>
+  <!-- D3 JavaaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.js"></script>
+  <!-- Leaftlet css -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+   <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+  <div class="mx-auto" style="width: 97%;">
+  <h1>Visualizing earthquakes and tectonic plates</h1>
+  <h3><i>By Rodrigo Guarneros</i></h3>
+  <p class="font">This visualization was made based on the API Earthquake Hazards Program, made by the US Geological Survey and available at: <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">GeoJSON Summary Format</a>.</p>
+  <p class="font">An earthquake occurs when two tectonic plates under the Earth’s surface slip past one another, resulting in the sudden release of energy in the Earth's crust. The sudden violent shaking of the surface can cause destruction to infrastructure, human injury, and even death.</p>
+  <p class="font">Although, earthquakes can be difficult to predict, Earthquake Early Warning systems, which use seismic networks for detection, are put in place to protect peoples' lives. There are also a number of ways to measure the magnitude of an earthquake. One of the first and most widely-used methods is the Richter scale. The Richter magnitude scale was developed by the seismologist, Charles F. Richter, in 1935. On the Richter Scale, magnitude is expressed in whole numbers and decimal fractions, but is based on a logarithmic scale. For example, a magnitude 5.3 might be computed for a moderate earthquake, and a strong earthquake might be rated as magnitude 6.3.</p>
+  <p class="font">If you need aditional information about the earthquake, <b>interact with data</b>:</p>
+  <ul>
+    <li class="font">Know specific information about the earthquake in the past seven years: Click in the markers.</li>
+    <li class="font">Visualize every group of earthquake in the past seven years by <b>satellite, grayscale and outdoors</b>.</li>
+    <li class="font">Also see the relationship between the earthquakes incidence and tectonic plates.</li>
+  </ul>
+  <hr>
+</div>
+  <!-- The div that holds our map -->
+  <div id="map"></div>
+
+  <!-- The key -->
+  <script type="text/javascript" src="static/js/config.js"></script>
+  <!-- Our JavaScript -->
+  <!-- <script type="text/javascript" src="Level1/logic.js"></script> -->
+  <!-- Second JavaScript bonus -->
+  <script type="text/javascript" src="Level2/logic.js"></script>
+
+</body>
+</html>
