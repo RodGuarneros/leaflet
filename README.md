@@ -10,7 +10,7 @@ The tools used in this project iclude, mainly:
 - [mapbox_layers](https://www.mapbox.com/) API
 - [VanillaJS](http://vanilla-js.com/) 
 
-Please, before to start, don't forget select the logic.js file you are interested, by default you are going to see the second visualization at: [Click here](rodguarneros.github.io/leaflet):
+Please, before to start, don't forget select the logic.js file you are interested, by default you are going to see the second visualization at: [Click here](http://rodrigoguarneros.com/earthquakes/).
 
 # Visualization Level-1
 ![2-BasicMap](https://github.com/RodGuarneros/leaflet/blob/master/static/Images/RodrigoGuarneros1.jpg)
